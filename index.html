@@ -14,7 +14,11 @@
 </head>
 <body>
     <div id="app">
-        
+        <h1>Generatore Email</h1>
+        <button @click="eMail">Genera 10 email</button>
+        <ul>
+            <li v-for="email in emailList"> {{ email }} </li>
+        </ul>
     </div>
 
     
